@@ -821,4 +821,19 @@ footer img {
   .award {
     padding: 2vw 0;
   }
+
+  /* CONTACTS */
+
+  .contact-wrapper {
+    margin-top: 4vw;
+  }
+
+  .wrapper {
+    padding-top: 1vw;
+    gap: 1vw;
+  }
+
+  form {
+    gap: 1vw;
+  }
 }
