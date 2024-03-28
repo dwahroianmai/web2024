@@ -816,16 +816,47 @@ footer img {
     height: 17em;
   }
 
+  /* WHAT I DO */
+
+  .card-content img {
+    top: -1vw;
+    left: 0;
+  }
+
   /* AWARDS */
 
   .award {
     padding: 2vw 0;
   }
 
+  /* EXPERIENCE */
+
+  .exp-card {
+    padding: 2vw;
+    gap: 2vw;
+  }
+
+  .exp-time {
+    margin-bottom: 0;
+  }
+
+  .exp-card-wrapper {
+    padding-left: 2vw;
+  }
+
+  .date-wrapper {
+    padding-right: 2vw;
+  }
+
   /* CONTACTS */
 
   .contact-wrapper {
-    margin-top: 4vw;
+    margin-top: 3vw;
+    gap: 1vw;
+  }
+
+  .contact-item {
+    gap: 1vw;
   }
 
   .wrapper {
@@ -835,5 +866,20 @@ footer img {
 
   form {
     gap: 1vw;
+  }
+
+  .map {
+    margin-bottom: 2vw;
+  }
+
+  /* FOOTER */
+
+  .footer-logo {
+    gap: 0.5vw;
+  }
+
+  footer img {
+    height: 2vw;
+    width: 2vw;
   }
 }
